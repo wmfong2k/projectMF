@@ -1,0 +1,53 @@
+div#bgimage{
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+    background-image: url(../images/Glass.jpg);
+    background-size: cover;
+}
+
+.topic p{
+    font-size: 50px;
+    color: darkblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+div#choose{
+    margin-top: 100px;
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.choosing{
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.choice{
+    float: left;
+    width: 100%;
+}
+
+
+h2{
+    text-align: center;
+    color: darkblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.choice p{
+    text-align: center;
+    color: darkblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+

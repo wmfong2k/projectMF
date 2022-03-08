@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- contactForm.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/contactForm.css">
+    <link rel="stylesheet" type="text/css" href="../css/test.css">
+    <script src="../javascript/test.js"></script>
+    <script src="../javascript/menus.js"></script>
+    <title>KONG SENG Contact Form</title>
+  </head>
+  <body>
+    <div id="topmenu">
+      <div id="mainlogobox">
+        <div>
+          <tr>
+              <td colspan="5">
+                <a href="../pages/index.html">
+                <img src="../images/logomain.png" style="float: left;"
+                     alt="KONG SENG"></a>
+              </td>
+            </tr>
+          </div>
+      </div>
+      <div id="mainMenu" onmouseout="hide()">
+        <nav id="mainMenu">
+          <ul class="mainLinks">
+            <li><a href="../pages/index.html">Home</a></li>
+            <li><a href="../pages/work.html">Our Work</a></li>
+            <li><a href="../pages/about.html">About Us</a></li>
+            <li><a href="../pages/contact.html">Contact Us</a></li>
+            <li onmouseover="show('m1')"><a href="#" >Services &#8801</a>
+              <div id="m1" onmouseover="show('m1')">
+                <a href="../pages/window.html">Window</a>
+                <a href="../pages/glass.html">Glass</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </div>
+
+    <div class="Gmap">
+      <div class="OverallGmap"> 
+        <h2>Our Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15885.634707068204!2d100.4338702!3d5.5061862!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1d6a195988a60e5d!2sKong%20Seng%20Glass%20%26%20Aluminium%20Enterprise!5e0!3m2!1sen!2sus!4v1646521990300!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <div id="formGroup">
+    <form id="contactForm" onsubmit="contactFormValidate()">
+    <h4>Contact Us</h4>
+      <table>
+        <tr>
+          <td><input type="text" name="firstName" size="40" placeholder="First Name"></td>
+          <td><input type="text" name="lastName" size="40" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="email" size="40" placeholder="E-mail Address"></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="phone" size="40" placeholder="Phone Number"></td>
+        </tr>
+        <tr>
+          <td><textarea id="message" rows="6" cols="30" placeholder="Describe the work detail"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><p class="formPara">Please check here if you wish for us to scout on the place (Optional):</p>
+        <input type="checkbox" name="reply" value="yes"></td>
+        </tr>
+        <tr>
+            <td><p class="formPara">If you check yes please leave your address</td></p>
+        </tr>
+        <tr>
+            <td><input type="street" class="form-control" id="autocomplete" placeholder="Street"></td>
+        </tr>
+        <tr>
+            <td><input type="city" class="form-control" id="inputCity" placeholder="City"></td>
+            <td><input type="state" class="form-control" id="inputState" placeholder="State"></td>
+        </tr>
+        <tr>
+            <td><input type="zip" class="form-control" id="inputZip" placeholder="Zip"></td>
+            <td><input type="country" class="form-control" id="inputCountry" placeholder="Country"></td>
+        </tr>
+    </table>
+    <input class="submission" type="submit" value="Submit">  
+    </form>
+    </div>
+    <div id="contact">
+      <div class="contactstuff">
+        <div class="pea">
+          <p>&#128222 012-3456789 </p>
+        </div>
+        <div class="pea">
+          <p>&#9993 kongseng126@hotmail.com </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background-color: #2e2e2e;
+}
+
+div#topmenu{
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+
+div#mainlogobox {
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    width: 15%;
+    float: left;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+nav ul { list-style: none;   
+}
+
+div#mainMenu{
+    padding: 10px;
+    margin: 10px;
+    margin-right: 50px;
+    width: 48%;
+    background-color: white;
+    float: right;
+}
+nav ul li{  
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+    width: 20%;
+    background-color: transparent;
+    float:left;
+  }
+
+nav ul li:hover{
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration:none; 
+    color: black;
+}
+
+.mainLinks{
+    width: 95%;
+    float: left;
+}
+
+.mainLinks li{
+    width: 19%;
+}
+
+.mainLinks div {
+    visibility: hidden;
+    background-color: white;
+    border: black solid 2px;
+}
+  
+.mainLinks div a {
+    position: relative;
+    display: block;
+    width: 99%;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.mainLinks div a:hover{
+    text-decoration: crimson;
+}
+
+.contactstuff{
+    width: 30%;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+div#contact{
+    bottom: 0;
+    margin-top: 100px;
+    background-color: white;
+    width: 100%;
+    float: left;
+}
+
+.pea{
+    float: left;
+    width: 100%;
+}
+
+.pea p{
+    text-align: center;
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

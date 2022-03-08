@@ -1,0 +1,39 @@
+.container{  
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+
+.subete{
+    float:left;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.subete img{
+    border-radius: 10px;
+}
+
+.subete02 img{
+    border-radius: 10px;
+}
+
+.subete02{
+    float:left;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+}
+.alignment{
+    text-align: left;
+    display: inline-block;
+    width: 72%;
+}
+
+.alignment div{
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin: 20px;
+}
